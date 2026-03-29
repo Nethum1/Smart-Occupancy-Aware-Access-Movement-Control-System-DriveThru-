@@ -27,3 +27,19 @@ This approach demonstrates sensor fusion, decision-making logic, and real-world 
 - Applies decision logic (functions/rules)
 - Sends commands back to ESP32
 </hr>
+
+## Hardware Components
+
+🔸 Sensors
+- IR Sensor (Object detection)
+- Ultrasonic Sensor (Distance measurement)
+- LDR (Light intensity detection)
+  
+🔸 Actuators
+- N20 Motors
+- Motor Driver Module
+  
+🔸 Controller
+ESP32 WROOM Dev Module
+</hr>
+
