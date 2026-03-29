@@ -12,3 +12,18 @@ Actuators (motors) respond based on those decisions
 
 This approach demonstrates sensor fusion, decision-making logic, and real-world automation concepts.
 </hr>
+
+## System Architecture
+
+🔹 Edge Layer (ESP32)
+- Reads data from multiple sensors
+- Sends real-time data to Node-RED
+- Receives control commands
+- Drives motors accordingly
+
+🔹 Gateway Layer (Node-RED)
+- Receives sensor data from ESP32
+- Processes and analyzes inputs
+- Applies decision logic (functions/rules)
+- Sends commands back to ESP32
+</hr>
