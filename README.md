@@ -43,3 +43,7 @@ This approach demonstrates sensor fusion, decision-making logic, and real-world 
 ESP32 WROOM Dev Module
 </hr>
 
+## Software & Tools
+- Arduino IDE (ESP32 programming)
+- Node-RED (IoT Gateway & Logic Processing)
+- Serial Communication / WiFi Communication
