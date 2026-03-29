@@ -3,3 +3,12 @@ This project presents a smart IoT-based system that detects occupancy and moveme
 `
 
 ![Anatomy of a Drive-Thru 102024](https://github.com/user-attachments/assets/70511835-ad8e-4704-bb11-a0dfe7ea3151)
+
+The system follows a modern edge-to-gateway architecture, where:
+
+The ESP32 (edge device) collects real-time sensor data
+Node-RED (gateway) processes the data and makes decisions
+Actuators (motors) respond based on those decisions
+
+This approach demonstrates sensor fusion, decision-making logic, and real-world automation concepts.
+</hr>
